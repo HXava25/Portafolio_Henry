@@ -7,8 +7,8 @@ import { BallCollider, CuboidCollider, Physics, RigidBody, useRopeJoint, useSphe
 import { MeshLineGeometry, MeshLineMaterial } from 'meshline';
 
 // replace with your own imports, see the usage snippet for details
-const cardGLB = "/portofolio/assets/card.glb";
-const lanyard = "/portofolio/assets/lanyard.png";
+const cardGLB = "/assets/card.glb";
+const lanyard = "/assets/lanyard.png";
 
 import * as THREE from 'three';
 import './Lanyard.css';
@@ -43,7 +43,7 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
   const segmentProps = { type: 'dynamic', canSleep: true, colliders: false, angularDamping: 4, linearDamping: 4 };
   const { nodes, materials } = useGLTF(cardGLB);
   const texture = useTexture(lanyard);
-  const avatarTexture = useTexture("/portofolio/assets/logo.png");
+  const avatarTexture = useTexture("/assets/logo.png");
   
   // Configuración simple para mostrar la imagen correctamente
   avatarTexture.flipY = false;
