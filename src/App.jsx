@@ -237,13 +237,9 @@ function App() {
             <h1 className="text-5xl font-bold mb-6">
               <ShinyText text="Hola soy Henry Hans Huayta Hinojosa" disabled={false} speed={3} className='custom-class' />
             </h1>
-            <BlurText
-              text="Desarrollador backend, con conocimientos en Python.Dedicado a crear experiencias digitales modernas y de alto rendimiento a través de soluciones innovadoras y fáciles de usar."
-              delay={105}
-              animateBy="words"
-              direction="top"
-              className=" mb-6"
-            />
+            <p className="mb-6 opacity-90">
+              Desarrollador backend, con conocimientos en Python. Dedicado a crear experiencias digitales modernas y de alto rendimiento a través de soluciones innovadoras y fáciles de usar.
+            </p>
             <div className="flex items-center sm:gap-4 gap-2">
               <a 
                 href="./assets/CV.pdf" 
@@ -282,13 +278,9 @@ function App() {
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">
                   Sobre Mí
                 </h2>
-                <BlurText
-                  text="Soy Henry Hans Huayta Hinojosa, estudiante de Ingeniería de Sistemas del IX ciclo en la Universidad Nacional del Centro del Perú (UNCP). Me desempeño como desarrollador backend, con sólidos conocimientos en ciberseguridad y automatización mediante Python (scripts). Cuento con experiencia en entornos y herramientas como Parrot OS, Red Hat y Pandora FMS, así como conocimientos en seguridad ofensiva (nivel intermedio – Black Hat), enfocados en el análisis de vulnerabilidades y pruebas de seguridad. Además, poseo conocimientos en Machine Learning y Deep Learning, aplicando conceptos de aprendizaje automático y redes neuronales para el análisis de datos y desarrollo de soluciones inteligentes. Actualmente, me encuentro en constante proceso de aprendizaje, con un fuerte interés en fortalecer mis competencias en seguridad informática e inteligencia artificial"
-                  delay={50}
-                  animateBy="words"
-                  direction="top"
-                  className="mb-6"
-                />
+                <p className="mb-6 opacity-90">
+                  Soy Henry Hans Huayta Hinojosa, estudiante de Ingeniería de Sistemas del IX ciclo en la Universidad Nacional del Centro del Perú (UNCP). Me desempeño como desarrollador backend, con sólidos conocimientos en ciberseguridad y automatización mediante Python (scripts). Cuento con experiencia en entornos y herramientas como Parrot OS, Red Hat y Pandora FMS, así como conocimientos en seguridad ofensiva (nivel intermedio – Black Hat), enfocados en el análisis de vulnerabilidades y pruebas de seguridad. Además, poseo conocimientos en Machine Learning y Deep Learning, aplicando conceptos de aprendizaje automático y redes neuronales para el análisis de datos y desarrollo de soluciones inteligentes. Actualmente, me encuentro en constante proceso de aprendizaje, con un fuerte interés en fortalecer mis competencias en seguridad informática e inteligencia artificial
+                </p>
                 <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
